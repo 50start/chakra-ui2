@@ -14,6 +14,7 @@ export const Header = memo(() => {
   const history = useHistory();
 
   //不要なレンダリングを避ける
+  //useCallbackで使っている変数は依存配列に設定
   const onClickHome = useCallback(() => history.push("/home"), [history]);
   const onClickUserManagement = useCallback(
     () => history.push("/home/user_management"),
