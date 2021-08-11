@@ -45,6 +45,7 @@ export const Header = memo(() => {
           onClick={onClickHome} //as="a”に対して　Flexに対してonClickを割り当てる
         >
           {/** Heading HTMLの　h1やh2の様な表現をする md=>ブレイクポイント*/}
+          {/** rem => フォントのサイズ　bass=> ベースのサイズ md=>28rem lg=>32rem*/}
           <Heading as="h1" fontSize={{ base: "md", md: "lg" }}>
             ユーザ管理アプリ
           </Heading>
