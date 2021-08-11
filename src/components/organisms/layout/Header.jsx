@@ -29,7 +29,7 @@ export const Header = memo(() => {
       {/** Flexの外側にハンバーガーメニューを実装するため　フラグメントでFlexを囲う */}
       {/**Flex => Frexboxみたいなのが実装できる Headerとして使っていく*/}
       {/**asをつけるとどのタグとしてレンダリングするか指定する*/}
-      <Flex
+      <Flex　
         as="nav"
         bg="teal.500"
         color="gray.50"
@@ -37,7 +37,7 @@ export const Header = memo(() => {
         justify="space-between"
         padding={{ base: 3, md: 5 }}
       >
-        <Flex
+        <Flex //タイトル　ユーザー管理アプリに対して
           align="center"
           as="a"
           mr={8}
