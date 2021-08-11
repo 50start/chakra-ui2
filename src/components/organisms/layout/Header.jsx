@@ -54,7 +54,7 @@ export const Header = memo(() => {
         <Flex
           align="center"
           fontSize="sm"
-          flexGrow={2}
+          flexGrow={2} //伸び率
           // モバイルの時には表示しない(base: "none") ブレイクポイントになったらリンクを横並びに表示する(md: "flex")
           display={{ base: "none", md: "flex" }}
         >
