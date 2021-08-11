@@ -28,7 +28,8 @@ export const Router = memo(() => {
                   exact={route.exact}
                   path={`${url}${route.path}`}
                 >
-                  {/**それぞれの画面をレンダリングしている部分でHeaderLayoutで囲う */}
+                  {/**それぞれの画面をレンダリングしているコンポーネントをHeaderLayoutで囲う */}
+                   {/**children => 各コンポーネント home, usermanagement, setting, 404 */}
                   <HeaderLayout>{route.children}</HeaderLayout>
                 </Route>
               ))}
