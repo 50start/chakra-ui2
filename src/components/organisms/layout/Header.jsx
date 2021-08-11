@@ -58,7 +58,7 @@ export const Header = memo(() => {
           // モバイルの時には表示しない(base: "none") ブレイクポイントになったらリンクを横並びに表示する(md: "flex")
           display={{ base: "none", md: "flex" }}
         >
-          <Box pr={4}>
+          <Box pr={4}>//リンクの幅を調整
             <Link onClick={onClickUserManagement}>ユーザー一覧</Link>
           </Box>
           　<Link onClick={onClickSetting}>設定</Link>
