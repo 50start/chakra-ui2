@@ -7,7 +7,7 @@ export const HeaderLayout = memo((props) => {
   return (
     <>
       <Header />
-      {/**渡されてきたchildrenをここに表示　layoutとして使いまわせる*/}
+ {/**渡されてきたchildrenをここに表示(home,usermanagement,setting,404ページコンポーネントの事）layoutとして使いまわせる*/}
       {children}
     </>
   );
