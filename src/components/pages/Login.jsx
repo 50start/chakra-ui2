@@ -23,7 +23,7 @@ export const Login = memo(() => {
           ユーザー管理アプリ
         </Heading>
         <Divider my={4} />
-        {/** Stack=> 囲った中を等間隔にしていく Divider=>仕切り線*/}
+        {/** Stack=> inputとbuttonの間の余白が等間隔、かつwidthを100に整えてくれる。囲った中を等間隔にしていく Divider=>仕切り線*/}
         <Stack spacing={6} py={4} px={10}>
           <Input
             placeholder="ユーザーID"
